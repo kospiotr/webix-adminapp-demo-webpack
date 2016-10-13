@@ -12,7 +12,7 @@ module.exports = function (env) {
     devtool: 'source-map',
     entry: {
       vendor: [
-        'webix/webix_debug.js',
+        isProd ? 'webix/webix.js' : 'webix/webix_debug.js',
         'webix/skins/flat.css',
         './src/assets/theme.siberia.less'
       ],
@@ -49,6 +49,7 @@ module.exports = function (env) {
       }),
       isProd ? new webpack.optimize.UglifyJsPlugin(
         {
+          minimize: true,
           sourceMap: true,
           compress: {
             sequences: true,
