@@ -25,7 +25,6 @@ module.exports = function (env) {
       path: path.join(__dirname, 'build'),
       filename: '[name].js',
       chunkFilename: '[name].[chunkhash].js',
-      //libraryTarget: 'commonjs2'
     },
     module: {
       loaders: [
