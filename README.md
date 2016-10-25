@@ -9,7 +9,7 @@ Forked from: https://github.com/webix-hub/webix-adminapp-demo
 Live demos
 ----------
 
-https://kospiotr.github.io/webix-adminapp-demo-webpack
+https://kospiotr.github.io/webix-adminapp-flat-demo-webpack
 
 Technical details
 ------------------
